@@ -1,3 +1,0 @@
-C:/Users/newto/OneDrive/Desktop/C++/One_Hundred_Days_Of_Code/Day_Two/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/Day_Two.dir
-C:/Users/newto/OneDrive/Desktop/C++/One_Hundred_Days_Of_Code/Day_Two/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/newto/OneDrive/Desktop/C++/One_Hundred_Days_Of_Code/Day_Two/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
