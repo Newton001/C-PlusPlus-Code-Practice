@@ -26,16 +26,16 @@ target_compile_options(${PROJECT_NAME} PRIVATE
 )
 
 # Check if the file exists
-if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/threadLog.txt")
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/cars.txt")
     # If file exists, copy it to the binary directory
-    file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/threadLog.txt DESTINATION ${PROJECT_BINARY_DIR})
+    file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/cars.txt DESTINATION ${PROJECT_BINARY_DIR})
 else()
     # If file doesn't exist, create an empty file
-    file(WRITE "${CMAKE_CURRENT_SOURCE_DIR}/threadLog.txt" "")
-    message(STATUS "threadLog.txt file was created.")
+    file(WRITE "${CMAKE_CURRENT_SOURCE_DIR}/cars.txt" "")
+    message(STATUS "cars.txt file was created.")
 
     # Now copy the newly created file
-    file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/threadLog.txt DESTINATION ${PROJECT_BINARY_DIR})
+    file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/cars.txt DESTINATION ${PROJECT_BINARY_DIR})
 endif()
 
 
